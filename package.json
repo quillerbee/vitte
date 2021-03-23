@@ -5,6 +5,7 @@
 		"dev": "vite",
 		"fix": "pnpx eslint --fix \"{,!(node_modules|public|dist|.routify)/**/}*.{js,svelte}\"",
 		"format": "pnpx prettier --write --plugin-search-dir=. \"{,!(node_modules|public|dist|.routify)/**/}*.{js,svelte,json}\"",
+		"prebuild": "test \"$CI\" = true && npx pnpm install --store=node_modules/.pnpm-store || echo skiping pnpm install",
 		"build": "vite build",
 		"serve": "vite preview"
 	},

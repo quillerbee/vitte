@@ -31,6 +31,9 @@
 	}
 </style>
 
-<button class="outline-none w-[150px] focus:outline-none hover:outline-none md:dark:hover:bg-yellow-200" id="{id}" on:click="{increment}">
+<button
+	class="outline-none w-[150px] focus:outline-none hover:outline-none md:dark:hover:bg-yellow-200"
+	id="{id}"
+	on:click="{increment}">
 	Clicks: {$count}
 </button>

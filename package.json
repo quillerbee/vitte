@@ -14,7 +14,6 @@
 	"devDependencies": {
 		"@babel/core": "^7.13.10",
 		"@babel/eslint-parser": "^7.13.10",
-		"@rollup/pluginutils": "^4.1.0",
 		"@roxi/routify": "^2.15.1",
 		"@sveltejs/vite-plugin-svelte": "^1.0.0-next.5",
 		"@tailwindcss/jit": "^0.1.7",

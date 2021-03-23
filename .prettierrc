@@ -1,0 +1,12 @@
+{
+    "useTabs": true,
+    "tabWidth": 4,
+    "svelteSortOrder": "options-scripts-styles-markup",
+    "svelteStrictMode": true,
+    "svelteBracketNewLine": false,
+    "svelteAllowShorthand": true,
+    "svelteIndentScriptAndStyle": true,
+    "plugins": [
+        "prettier-plugin-svelte"
+    ]
+}

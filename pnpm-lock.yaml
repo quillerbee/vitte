@@ -1,9 +1,9 @@
 devDependencies:
   '@babel/core': 7.13.10
   '@babel/eslint-parser': 7.13.10_034a79b673b214252be02f5b7224dec9
-  '@rollup/pluginutils': 4.1.0_rollup@2.42.3
+  '@rollup/pluginutils': 4.1.0
   '@roxi/routify': 2.15.1
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.5_316a4774d717c4a92a69d9ade14d7099
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.5_svelte@3.35.0+vite@2.1.2
   '@tailwindcss/jit': 0.1.7_postcss@8.2.8+tailwindcss@2.0.4
   autoprefixer: 10.2.5_postcss@8.2.8
   eslint: 7.22.0
@@ -12,7 +12,6 @@ devDependencies:
   postcss: 8.2.8
   prettier: 2.2.1
   prettier-plugin-svelte: 2.2.0_prettier@2.2.1+svelte@3.35.0
-  rollup: 2.42.3
   svelte: 3.35.0
   tailwindcss: 2.0.4_caf414ac65a978d0d57907a0ec9fb41e
   vite: 2.1.2
@@ -266,11 +265,10 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-8Broas6vTtW4GIXTAHDoE32hnN2M5ykgCpWGbuXHQ15vEMqr23pB76e/GZcYsZCHALv50ktd24qhEyKr6wBtow==
-  /@rollup/pluginutils/4.1.0_rollup@2.42.3:
+  /@rollup/pluginutils/4.1.0:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.2.2
-      rollup: 2.42.3
     dev: true
     engines:
       node: '>= 8.0.0'
@@ -304,9 +302,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-C86xWJOmtCGZr/U4MURqePM0oDKFkTlLeEyT07R+7jSKvREKZ2manJAeAebYudJLYEGITEPGqObhRan32bUUbg==
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.5_316a4774d717c4a92a69d9ade14d7099:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.5_svelte@3.35.0+vite@2.1.2:
     dependencies:
-      '@rollup/pluginutils': 4.1.0_rollup@2.42.3
+      '@rollup/pluginutils': 4.1.0
       chalk: 4.1.0
       debug: 4.3.2
       hash-sum: 2.0.0
@@ -320,7 +318,6 @@ packages:
     engines:
       node: '>=12.0.0'
     peerDependencies:
-      rollup: '*'
       svelte: ^3.35.0
       vite: ^2.1.2
     resolution:
@@ -2898,7 +2895,6 @@ specifiers:
   postcss: ^8.2.8
   prettier: ^2.2.1
   prettier-plugin-svelte: ^2.2.0
-  rollup: ^2.42.3
   svelte: ^3.35.0
   tailwindcss: ^2.0.4
   vite: ^2.1.0

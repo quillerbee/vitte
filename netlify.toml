@@ -1,0 +1,9 @@
+# To be able to use pnpm, npm needs to be disabled.
+[build.environment]
+NPM_FLAGS = "--prefix=/dev/null"
+
+# Since routing is handled by SPA
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200

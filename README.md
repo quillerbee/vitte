@@ -1,11 +1,16 @@
-# Svelte + Vite
+# Svelte + Vite + Routify + Tailwind JIT
+> This template should help get you started developing with Svelte in Vite.
 
-This template should help get you started developing with Svelte in Vite.
+This is a starter I want to use to replace the defacto Rollup starter provided by Svelte, which is verbose and slow as hell for development purposes.
 
-## Recommended IDE Setup
+## Features
+- [x] Svelte
+- [x] Vite
+- [x] Prettier
+- [x] ESLint
+- [x] Aliasing
+- [x] Netlify SPA
+- [x] Tailwind JIT
+- [ ] Routify
 
-[VSCode](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
-
-## Need an official Svelte framework?
-
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+P.S. Currently Routify doesn't work in Dev mode. I have raised issues in both Vite & Routify repos.

@@ -6,7 +6,7 @@
 		"routify": "routify",
 		"dev:routify": "run-p dev routify",
 		"fix": "pnpx eslint --fix \"{,!(node_modules|public|dist|.routify)/**/}*.{js,svelte}\"",
-		"format": "pnpx prettier --write --plugin-search-dir=. \"{,!(node_modules|public|dist|.routify)/**/}*.{js,svelte,json}\"",
+		"format": "pnpx prettier --write --plugin-search-dir=. \"{,!(node_modules|public|dist|.routify)/**/}*.{js,svelte,json,html}\"",
 		"prebuild": "test \"$CI\" = true && npx pnpm install --store=node_modules/.pnpm-store || echo skiping pnpm install",
 		"build": "routify -b && vite build",
 		"serve": "vite preview"

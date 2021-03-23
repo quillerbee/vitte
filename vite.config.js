@@ -7,7 +7,14 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [svelte()],
     build: {
-      minify: isProduction
+      minify: isProduction,
+      rollupOptions: {
+        // Disabled Hashing as Netlify Does Hashing for us using Etag.
+        output: {
+          entryFileNames: `assets/[name].js`,
+          chunkFileNames: `assets/[name].js`,
+        }
+      }
     }
   };
 });

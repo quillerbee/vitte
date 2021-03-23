@@ -19,7 +19,6 @@
 		border-radius: 2em;
 		border: 2px solid rgba(255, 62, 0, 0);
 		outline: none;
-		width: 200px;
 		font-variant-numeric: tabular-nums;
 	}
 
@@ -32,6 +31,6 @@
 	}
 </style>
 
-<button id="{id}" on:click="{increment}">
+<button class="outline-none w-[150px] focus:outline-none hover:outline-none md:dark:hover:bg-yellow-200" id="{id}" on:click="{increment}">
 	Clicks: {$count}
 </button>

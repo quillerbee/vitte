@@ -49,7 +49,7 @@
 	}
 </style>
 
-<main>
+<main class="flex flex-col items-center">
 	<img src="{logo}" alt="Svelte Logo" />
 	<h1>Hello world!</h1>
 

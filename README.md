@@ -1,4 +1,4 @@
-# Svelte + Vite + Routify + Tailwind JIT
+# Svelte + Vite + Tailwind JIT + Routify (Maybe)
 > This template should help get you started developing with Svelte in Vite.
 
 ## Features

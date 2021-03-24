@@ -16,4 +16,9 @@
 - Svelte Kit is not yet ready.
 - Using Sapper is like going backwords. (Even though Svelte Kit is going to have migration guide for Sapper users.)
 
-P.S. Currently Routify doesn't work in Dev mode. I have raised issues in both Vite & Routify repos.
+## Issues:
+- Currently Routify doesn't work in Dev mode. I have raised issues in both Vite & Routify repos.
+- I moved routify setup to `vite-routify-issue` branch.
+- Tickets:
+  - https://github.com/vitejs/vite/issues/2647
+  - https://github.com/roxiness/routify/issues/353

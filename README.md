@@ -11,6 +11,21 @@
 - [x] Tailwind JIT
 - [x] Routify
 
+## How to Run?
+### For Dev
+- `npm run routify`
+- `npm run dev`
+
+### For Prod
+- `npm run build`
+- `npm run serve`
+
+### For ESLint
+- `npm run fix`
+
+### For Formatting with Prettier
+- `npm run format`
+
 ## Why?
 - This is a starter I want to use to replace the defacto Rollup starter provided by Svelte, which is verbose and slow as hell for development purposes. See [Quiller Bee Repo](https://github.com/quillerbee/job-portal)
 - Svelte Kit is not yet ready.

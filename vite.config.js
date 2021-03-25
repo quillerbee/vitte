@@ -12,6 +12,9 @@ export default defineConfig(({ mode }) => {
 			alias: aliases,
 		},
 		plugins: [svelte()],
+		optimizeDeps: {
+			exclude: ["@roxi/routify"]
+		},
 		build: {
 			minify: isProduction,
 			brotliSize: false, // To Speed Up Build

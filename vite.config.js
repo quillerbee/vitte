@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
 		},
 		plugins: [svelte()],
 		optimizeDeps: {
-			exclude: ["@roxi/routify"]
+			exclude: ["@roxi/routify"],
 		},
 		build: {
 			minify: isProduction,

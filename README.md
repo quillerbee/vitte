@@ -1,6 +1,9 @@
 # Svelte + Vite + Tailwind JIT + Routify
 > This template should help get you started developing with Svelte in Vite.
 
+## Blog
+[Vite: 12 Features that Make it a Production Worthy & All-Rounder Build Tool](https://www.derpycoder.com/vite-12-features-that-make-it-a-production-worthy-all-rounder-build-tool/)
+
 ## Features
 - [x] Svelte
 - [x] Vite
